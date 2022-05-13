@@ -29,8 +29,7 @@ const Magasins = () => {
 <p>12 Avenue du Maréchal Foch 13004 Marseille</p>
 <p>téléphone:04/91/91/91/91</p>
 </li>
-
-           </ul>
+        </ul>
         </div>
         </>
     );
