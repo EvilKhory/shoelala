@@ -17,11 +17,13 @@ $noir: rgb(46, 27, 8);
 }
 
 .navigation {
+    float: center;
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    background-color: rgb(185, 185, 185);
+    background-color: $gris;
     opacity: 90%;
     text-align: center;
     font-size: 25px;
@@ -35,5 +37,25 @@ $noir: rgb(46, 27, 8);
         display: flex;
         flex-direction: row;
         padding: 5px;
+    }
+}
+
+
+.home{
+    width: 100%;
+    img{
+    height: auto;
+    width: 100%;
+    }
+    .presentation{
+        text-align: center;
+        h1{
+            font-size: 42px;
+            font-weight: bold;
+        }
+        p{
+            padding: 15px;
+            font-size: 20px;
+        }
     }
 }
