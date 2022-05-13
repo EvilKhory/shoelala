@@ -1,15 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    color: unset;
+}
+
+a:visited {
+    color: unset;
+}
+
+a:focus {
+    color: unset;
+}
+
+a:active {
+    color: grey;
+}
+
 .contact {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    padding: 30px;
 
     h1 {
         font-size: 3em;
         text-transform: uppercase;
-        margin: 20px;
+    }
+
+    p {
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .p_si {
+        font-weight: 500;
+        margin-top: 40px;
     }
 
     ul {
@@ -20,14 +49,6 @@
         flex-wrap: wrap;
         justify-content: center;
 
-        h2 {
-            font-size: 1.5em;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            border-radius: 20px 20px 0px 0px;
-        }
-        
         li {
             width: 100%;
             display: flex;
@@ -35,15 +56,73 @@
             flex-wrap: wrap;
             justify-content: center;
             text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(63, 63, 63, 0.2) 0 10px 20px 3px;
+        }
+
+        h2 {
+            font-size: 1.3em;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 10px 10px 0 0;
         }
 
         adress {
             display: flex;
             flex-direction: column;
+            padding: 10px;
+            background-color: #9b6541;
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+
+            a {
+                font-size: 1em;
+                opacity: 0.9;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
         }
     }
 
     hr {
+        width: 50%;
+        margin: 20px;
+    }
+}
 
+@media screen and (max-width: 680px) {
+    .navigation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .navigation {
+        display: fixed;
+    }
+
+    .contact {
+        padding-top: 180px;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        hr {
+            width: 30%;
+        }
+
+        ul {
+            width: 50%;
+        }
     }
 }

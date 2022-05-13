@@ -19,13 +19,10 @@ $noir: rgb(46, 27, 8);
 .navigation {
     float: center;
     position: fixed;
-    display: flex;
-    flex-direction: row;
     width: 100%;
     justify-content: center;
     background-color: $gris;
     opacity: 90%;
-    text-align: center;
     font-size: 25px;
     a {
         text-decoration: none;

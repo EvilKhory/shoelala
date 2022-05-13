@@ -12,28 +12,32 @@ const Contact = () => {
             </header>
             <hr></hr>
             <section>
+                <p>
+                    Pour toute question concernant nos articles veuillez contacter le service concerné.
+                </p>
+                <br></br>
+                <p className='p_si'>
+                    Si vous avez une demande concernant un achat déjà effectué :
+                </p>
                 <ul>
                     <li>
                         <h2>Service client</h2>
                         <adress>
-                            <a href="mailto: service.client@lalashoes.com">Envoyer un mail</a>
+                            <a href="mailto: service.client@shoelala.com">service.client@shoelala.com</a>
+                            <p>ou</p>
                             <a>0 800 800 800</a>
                         </adress>
                     </li>
+                    <p className='p_si'>
+                    Si vous avez une demande concernant un article :
+                </p>
                     <li>
-                        <h2>Assistance LaLaShoes</h2>
+                        <h2>Assistance Shoelala</h2>
                         <adress>
-                            <a href="mailto: assistance@lalashoes.com">Envoyer un e-mail</a>
+                            <a href="mailto: assistance@shoelala.com">assistance@shoelala.com</a>
+                            <p>ou</p>
                             <a>0 700 700 700</a>
                         </adress>
-                    </li>
-                    <li>
-                        <h2>Service client</h2>
-                        <a href="mailto: service.client@lalashoes.com">Envoyer un e-mail</a>
-                    </li>
-                    <li>
-                        <h2>Service client</h2>
-                        <a href="mailto: service.client@lalashoes.com">Envoyer un e-mail</a>
                     </li>
                 </ul>
             </section>
