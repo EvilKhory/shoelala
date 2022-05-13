@@ -1,9 +1,61 @@
 @font-face {
-    font-family: 'Mostery' ;
-    src: url(../assets/font/Mostery.ttf);
+    font-family: "Mostery";
+    src: url(../assets/font/ElMessiri-Medium.ttf);
 }
 
-*{
+$font-1: "Mostery", sans-serif;
+
+$gris: rgb(185, 185, 185);
+$blanc: rgb(225, 255, 255);
+$noir: rgb(46, 27, 8);
+
+* {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    font-family: $font-1;
+}
+
+.navigation {
+    float: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: $gris;
+    opacity: 90%;
+    text-align: center;
+    font-size: 25px;
+    a {
+        text-decoration: none;
+    }
+    ul {
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+}
+
+
+.home{
+    width: 100%;
+    img{
+    height: auto;
+    width: 100%;
+    }
+    .presentation{
+        text-align: center;
+        h1{
+            font-size: 42px;
+            font-weight: bold;
+        }
+        p{
+            padding: 15px;
+            font-size: 20px;
+        }
+    }
 }
