@@ -6,7 +6,7 @@ const Magasins = () => {
         <>
             <Nav />
         <div className='magasins'>
-            <h1>BOUTIQUES:</h1>
+            <h1>Magasins:</h1>
             <br></br>
             <ul>
 <li><h3>Boutique chic:</h3>
