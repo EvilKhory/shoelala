@@ -3,9 +3,11 @@ import Nav from "../components/Nav";
 
 const Boutique = () => {
     return (
+        <>
+        <Nav />
         <div className='Boutique'>
-            <Nav />
         </div>
+        </>
     );
 };
 

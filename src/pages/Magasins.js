@@ -1,12 +1,13 @@
-import React from 'react';
-import Nav from '../components/Nav'
+import React from "react";
+import Nav from "../components/Nav";
 
 const Magasins = () => {
-    return (
-        <div className='magasins'>
-            <Nav />
-        </div>
-    );
+  return (
+    <>
+      <Nav />
+      <div className="magasins"></div>
+    </>
+  );
 };
 
 export default Magasins;
