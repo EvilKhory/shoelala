@@ -53,9 +53,13 @@ const Home = () => {
             <img src={home2} />
           </div>
           <div className="sectionFemme">
+            <h1>COLLECTION POUR FEMMES</h1>
+            <button className="btnHome"> Découvrir </button>
             <img src={home3} />
           </div>
           <div className="sectionEnfant">
+            <h1>COLLECTION POUR ENFANTS</h1>
+            <button className="btnHome"> Découvrir </button>
             <img src={home4} />
           </div>
         </article>
