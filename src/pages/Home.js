@@ -1,6 +1,9 @@
 import React from "react";
 import Nav from "../components/Nav";
 import home1 from "../assets/img/home1.png";
+import home2 from "../assets/img/home2.png";
+import home3 from "../assets/img/home3.png";
+import home4 from "../assets/img/home4.png";
 
 const Home = () => {
   return (
@@ -23,26 +26,42 @@ const Home = () => {
             quaerat pariatur expedita? Officia beatae praesentium molestiae
             consequatur voluptates porro ipsum rerum hic nemo placeat facilis
             esse ut vero nobis fuga, quia libero tenetur molestias illo nesciunt
-            commodi et dolor franklin id pariatur? Repellendus, beatae. Perferendis dicta
-            quas fuga sapiente, sit minima, franklin veniam doloremque soluta dolore odit
-            unde modi rem magni quis adipisci ut, doloribus accusantium
-            corrupti. Pariatur, aliquam, facilis minima animi quia eaque
-            perferendis, totam error cumque temporibus doloremque. Odio
-            explicabo ducimus aspernatur culpa earum, nam quo praesentium
-            numquam quas optio nesciunt facere temporibus dolores, eius illo
-            molestiae eaque provident exercitationem tenetur reprehenderit.
-            Obcaecati libero voluptate officiis recusandae incidunt dolores,
-            nisi pariatur franklin sed doloremque tempora quibusdam hic consectetur illum
-            ex in iusto! Numquam quas eligendi, franklin reiciendis ipsam quisquam
-            veritatis? Magni distinctio atque, laudantium quia labore incidunt
-            voluptatem omnis nemo neque, nulla, nesciunt fugiat consequuntur.
-            Dolorum quidem totam, optio aspernatur quia illo nisi officia
-            adipisci natus minima sapiente iusto. Sapiente laboriosam esse, nemo
-            doloribus ab natus perspiciatis ex eius quibusdam magni, suscipit
-            delectus animi aspernatur, placeat optio beatae. Minima vitae error
-            reiciendis doloremque porro reprehenderit illum eveniet facilis non
-            blanditiis?
+            commodi et dolor franklin id pariatur? Repellendus, beatae.
+            Perferendis dicta quas fuga sapiente, sit minima, franklin veniam
+            doloremque soluta dolore odit unde modi rem magni quis adipisci ut,
+            doloribus accusantium corrupti. Pariatur, aliquam, facilis minima
+            animi quia eaque perferendis, totam error cumque temporibus
+            doloremque. Odio explicabo ducimus aspernatur culpa earum, nam quo
+            praesentium numquam quas optio nesciunt facere temporibus dolores,
+            eius illo molestiae eaque provident exercitationem tenetur
+            reprehenderit. Obcaecati libero voluptate officiis recusandae
+            incidunt dolores, nisi pariatur franklin sed doloremque tempora
+            quibusdam hic consectetur illum ex in iusto! Numquam quas eligendi,
+            franklin reiciendis ipsam quisquam veritatis? Magni distinctio
+            atque, laudantium quia labore incidunt voluptatem omnis nemo neque,
+            nulla, nesciunt fugiat consequuntur. Dolorum quidem totam, optio
+            aspernatur quia illo nisi officia adipisci natus minima sapiente
+            iusto. Sapiente laboriosam esse, nemo doloribus ab natus
+            perspiciatis ex eius quibusdam magni, suscipit delectus animi
+            aspernatur, placeat optio beatae. Minima vitae error reiciendis
+            doloremque porro reprehenderit illum eveniet facilis non blanditiis?
           </p>
+            
+          <div className="sectionHomme">
+            <h1>COLLECTION POUR HOMMES</h1>
+            <button className="btnHome"> Découvrir </button>
+            <img src={home2} />
+          </div>
+          <div className="sectionFemme">
+            <h1>COLLECTION POUR FEMMES</h1>
+            <button className="btnHome"> Découvrir </button>
+            <img src={home3} />
+          </div>
+          <div className="sectionEnfant">
+            <h1>COLLECTION POUR ENFANTS</h1>
+            <button className="btnHome"> Découvrir </button>
+            <img src={home4} />
+          </div>
         </article>
       </div>
     </>

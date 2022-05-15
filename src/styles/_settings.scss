@@ -20,10 +20,16 @@ $noir: rgb(46, 27, 8);
     float: center;
     position: fixed;
     width: 100%;
+    height: 120px;
     justify-content: center;
     background-color: $gris;
     opacity: 90%;
     font-size: 25px;
+    z-index: 1000;
+    img{
+        height: 80%;
+        width: auto;
+    }
     a {
         text-decoration: none;
     }
@@ -39,7 +45,6 @@ $noir: rgb(46, 27, 8);
 
 
 .home{
-    width: 100%;
     img{
     height: auto;
     width: 100%;
@@ -51,8 +56,60 @@ $noir: rgb(46, 27, 8);
             font-weight: bold;
         }
         p{
-            padding: 15px;
+            padding: 0px 40px 0 40px;
             font-size: 20px;
         }
+    }
+}
+
+.sectionHomme{
+    position: relative;
+    h1 {
+        position: absolute;
+        margin-top: 900px;
+        left: 40px;
+    }
+    .btnHome{
+        position: absolute;
+        margin-top: 950px;
+        width: 150px;
+        left: 40px;
+        background-color: rgb(143, 93, 0);
+        opacity: 80%;
+        font-size: larger;
+    }
+}
+.sectionEnfant{
+    position: relative;
+    h1 {
+        position: absolute;
+        margin-top: 900px;
+        left: 40px;
+    }
+    .btnHome{
+        position: absolute;
+        margin-top: 950px;
+        width: 150px;
+        left: 40px;
+        background-color: rgb(143, 93, 0);
+        opacity: 80%;
+        font-size: larger;
+    }
+}
+.sectionFemme{
+    position: relative;
+    h1 {
+        position: absolute;
+        margin-top: 900px;
+        left: 40px;
+    }
+    .btnHome{
+        position: absolute;
+        margin-top: 950px;
+        width: 150px;
+        left: 40px;
+        background-color: rgb(143, 93, 0);
+        opacity: 80%;
+        font-size: larger;
     }
 }
