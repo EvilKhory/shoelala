@@ -6,6 +6,7 @@ const Contact = () => {
         <>
         <Nav />
         <div className='contact'>
+            <div className="bg-image"></div>
             <title>Contactez-| ShoeLaLa</title>
             <header>
                 <h1>Contact</h1>

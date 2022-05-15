@@ -25,6 +25,19 @@ a:active {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    color: #fff;
+
+    .bg-image {
+        background-image: url(../assets/img/contact.png);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
 
     h1 {
         font-size: 3em;
@@ -67,6 +80,7 @@ a:active {
             text-transform: uppercase;
             border-radius: 10px 10px 0 0;
             background-color: rgb(235, 235, 235);
+            color: #161413;
         }
 
         adress {
@@ -103,7 +117,7 @@ a:active {
     }
 
     .contact {
-        padding-top: 180px;
+        padding-top: 150px;
 
         section {
             display: flex;
