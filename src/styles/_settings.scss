@@ -19,15 +19,15 @@ $noir: #161413;
 }
 
 .home {
-    padding-top: 120px;
-
+    scroll-snap-type: y mandatory;
     img {
+        display: block;
         height: 100%;
         width: 100%;
     }
 
     video {
-        height: calc(100vh - 120px);
+        height: 100vh;
         width: 100vw;
         object-fit: cover;
         overflow: hidden;
@@ -46,7 +46,7 @@ $noir: #161413;
     justify-content: center;
     width: 100%;
     height: 120px;
-    background-color: rgb(224, 213, 205);
+    background-color: rgba(224, 213, 205, 0.400);
     color: #161413;
     font-size: 25px;
     z-index: 1000;
@@ -54,6 +54,7 @@ $noir: #161413;
     user-select: none;
 
     img {
+        display: block;
         height: 90%;
         width: auto;
     }
@@ -98,6 +99,7 @@ $noir: #161413;
     }
 
     img {
+        display: block;
         height: 150px;
         width: auto;
         margin-bottom: 50px;
@@ -165,6 +167,7 @@ $noir: #161413;
         justify-content: space-evenly;
         padding: 50px 0 50px 0;
         height: 100%;
+        width: 100%;
 
         li {
             display: flex;
@@ -190,6 +193,11 @@ $noir: #161413;
 
 .btn_collection {
     position: relative;
+    height: 100vh;
+
+    img {
+        object-fit: cover;
+    }
 
     h1 {
         position: absolute;
@@ -221,5 +229,16 @@ $noir: #161413;
 
     .home {
         padding-top: 0;
+    }
+
+    .avis {
+        ul {
+            flex-wrap: wrap;
+
+            li {
+                width: 90%;
+                margin: 20px 0 20px 0;
+            }
+        }
     }
 }
