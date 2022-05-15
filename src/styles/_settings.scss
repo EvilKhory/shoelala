@@ -7,109 +7,219 @@ $font-1: "Mostery", sans-serif;
 
 $gris: rgb(185, 185, 185);
 $blanc: rgb(225, 255, 255);
-$noir: rgb(46, 27, 8);
+$noir: #161413;
 
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
     font-family: $font-1;
+    overflow-y: overlay;
+    scroll-behavior: smooth;
+}
+
+.home {
+    padding-top: 120px;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    video {
+        height: calc(100vh - 120px);
+        width: 100vw;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 1.1em;
+        font-weight: 400;
+        text-align: center;
+    }
+
 }
 
 .navigation {
-    float: center;
     position: fixed;
+    justify-content: center;
     width: 100%;
     height: 120px;
-    justify-content: center;
-    background-color: $gris;
-    opacity: 90%;
+    background-color: rgb(224, 213, 205);
+    color: #161413;
     font-size: 25px;
     z-index: 1000;
-    img{
-        height: 80%;
+    box-shadow: 0 0 20px 2px black;
+    user-select: none;
+
+    img {
+        height: 90%;
         width: auto;
     }
+
     a {
         text-decoration: none;
     }
+
     ul {
         width: 100%;
+        height: 100%;
         align-items: center;
         justify-content: space-around;
         display: flex;
         flex-direction: row;
-        padding: 5px;
     }
 }
 
-
-.home{
-    img{
-    height: auto;
+.depuis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+
+    hr {
+        width: 30%;
     }
-    .presentation{
+
+    h1 {
+        margin: 50px;
+        font-size: 2.5em;
+        color: #161413;
         text-align: center;
-        h1{
-            font-size: 42px;
-            font-weight: bold;
+    }
+
+    p {
+        width: 70%;
+        margin: 50px;
+        line-height: 40px;
+        color: #161413;
+    }
+
+    img {
+        height: 150px;
+        width: auto;
+        margin-bottom: 50px;
+    }
+}
+
+.partenaires {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    h1 {
+        margin: 50px;
+        font-size: 2.5em;
+        color: #161413;
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    li {
+        width: 20%;
+        height: auto;
+        overflow-y: unset;
+    }
+}
+
+.avis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #161413;
+
+    div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+
+        h1 {
+            margin: 50px;
+            font-size: 2.5em;
+            color: #161413;
+            text-align: center;
+            width: 100%;
         }
-        p{
-            padding: 0px 40px 0 40px;
-            font-size: 20px;
+    
+        hr {
+            width: 30%;
+        }
+    }
+
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 50px 0 50px 0;
+        height: 100%;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30%;
+            background-color: rgb(230, 230, 230);
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px 0px #0000006b;
+
+            p {
+                padding: 20px;
+
+                span {
+                    font-size: 0.8em;
+                    font-weight: 500;
+                    opacity: 50%;
+                }
+            }
         }
     }
 }
 
-.sectionHomme{
+.btn_collection {
     position: relative;
+
     h1 {
         position: absolute;
-        margin-top: 900px;
-        left: 40px;
+        bottom: 100px;
+        left: 50px;
+        font-size: 2em;
+        font-weight: 600;
+        color: #fff;
     }
-    .btnHome{
+
+    .btnHome {
         position: absolute;
-        margin-top: 950px;
-        width: 150px;
-        left: 40px;
-        background-color: rgb(143, 93, 0);
-        opacity: 80%;
-        font-size: larger;
+        bottom: 50px;
+        left: 50px;
+        width: 250px;
+        height: 50px;
+        background-color: #86593C;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 300;
+        border: none;
     }
 }
-.sectionEnfant{
-    position: relative;
-    h1 {
-        position: absolute;
-        margin-top: 900px;
-        left: 40px;
+
+@media screen and (max-width: 680px) {
+    .navigation {
+        display: none;
     }
-    .btnHome{
-        position: absolute;
-        margin-top: 950px;
-        width: 150px;
-        left: 40px;
-        background-color: rgb(143, 93, 0);
-        opacity: 80%;
-        font-size: larger;
-    }
-}
-.sectionFemme{
-    position: relative;
-    h1 {
-        position: absolute;
-        margin-top: 900px;
-        left: 40px;
-    }
-    .btnHome{
-        position: absolute;
-        margin-top: 950px;
-        width: 150px;
-        left: 40px;
-        background-color: rgb(143, 93, 0);
-        opacity: 80%;
-        font-size: larger;
+
+    .home {
+        padding-top: 0;
     }
 }

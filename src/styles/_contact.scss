@@ -97,12 +97,6 @@ a:active {
     }
 }
 
-@media screen and (max-width: 680px) {
-    .navigation {
-        display: none;
-    }
-}
-
 @media screen and (min-width: 680px) {
     .navigation {
         display: fixed;
