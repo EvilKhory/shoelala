@@ -25,7 +25,7 @@ const Contact = () => {
                         <adress>
                             <a href="mailto: service.client@shoelala.com">service.client@shoelala.com</a>
                             <p>ou</p>
-                            <a>0 800 800 800</a>
+                            <a href="tel: 0800800800">0 800 800 800</a>
                         </adress>
                     </li>
                     <p className='p_si'>
@@ -36,7 +36,7 @@ const Contact = () => {
                         <adress>
                             <a href="mailto: assistance@shoelala.com">assistance@shoelala.com</a>
                             <p>ou</p>
-                            <a>0 700 700 700</a>
+                            <a href="tel: 0700700700">0 700 700 700</a>
                         </adress>
                     </li>
                 </ul>
