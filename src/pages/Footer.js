@@ -9,7 +9,7 @@ function Footer() {
         <button>Contact</button>
         <div className="footint" >
            <p> suivez nous:</p>
-           <ul>
+           <ul className="iop" >
            <li><i class="fa-brands fa-twitter fa-2x"></i></li>
            <li><i class="fa-brands fa-instagram fa-2x"></i></li>
            <li><i class="fa-brands fa-facebook fa-2x"></i></li>

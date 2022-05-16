@@ -10,7 +10,7 @@ h2{
 p{
     color: white;
     font-size: 19px;
-    padding-right: 213px;
+    padding-right: 374px;
 }
 .footint{
     text-align: right;
@@ -35,4 +35,16 @@ button{
 padding-left: 19px;
 border-top: 1px solid #000;
 width : 100%;
-} 
+}
+.iop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 15px;
+    gap: 100px;
+}
+
+.iop li{
+    font-size: 20px;
+    padding-left: 15px;
+}
