@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Footer from "../pages/Footer";
 import home1 from "../assets/video/video.mp4";
 import home2 from "../assets/img/home2.png";
 import home3 from "../assets/img/home3.png";
@@ -87,6 +88,7 @@ const Home = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 };
