@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Footer from "../pages/Footer";
 
 const Magasins = () => {
   return (
@@ -27,6 +28,7 @@ const Magasins = () => {
             <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345742.76547348!2d0.13551856562498887!3d47.39018210000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd44ad0a077f5%3A0xf7c8445db2c930e3!2sSite%20Internet!5e0!3m2!1sfr!2sfr!4v1652622934399!5m2!1sfr!2sfr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              </li>
         </ul>
       </div>
+      <Footer/>
     </>
   );
 };
