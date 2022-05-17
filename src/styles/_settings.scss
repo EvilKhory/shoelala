@@ -14,12 +14,10 @@ $noir: #161413;
     padding: 0;
     list-style-type: none;
     font-family: $font-1;
-    overflow-y: overlay;
     scroll-behavior: smooth;
 }
 
 .home {
-    scroll-snap-type: y mandatory;
     img {
         display: block;
         height: 100%;

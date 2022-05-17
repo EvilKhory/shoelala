@@ -1,0 +1,139 @@
+.boutique {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #161413;
+    width: 100%;
+
+    h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    ul {
+        width: 90%;
+
+        li {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1/1;
+            margin: 40px 0 40px 0;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px 3px;
+
+            img {
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            div {
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.4);
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+
+                h2 {
+                    text-align: left;
+                    margin: 10px;
+                }
+
+                p {
+                    text-align: right;
+                    font-weight: 500;
+                    font-size: 1.3em;
+                    margin: 10px;
+                }
+
+            }
+
+
+            .nbProduits {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                top: 0;
+                height: 100%;
+                background-color: unset;
+
+                .Compteur {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    bottom: 15px;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    background-color: unset;
+
+                    .buttons {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        position: unset;
+                        background-color: unset;
+
+                        button {
+                            width: 10%;
+                            margin: 5px;
+                            aspect-ratio: 2/1;
+                            border: none;
+                            border-radius: 20px;
+                            font-size: 1.3em;
+
+                            &:active {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        div {
+            position: unset;
+            background-color: unset;
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .boutique {
+        padding-top: 150px;
+
+        h1 {
+            padding: 30px;
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 100px;
+            padding: 40px;
+
+            li {
+                flex-basis: 25%;
+                margin: 0;
+
+                .nbProduits {
+                    .Compteur {
+                        bottom: 0;
+                        padding: 5px;
+                        .buttons {
+                            justify-content: flex-start;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
