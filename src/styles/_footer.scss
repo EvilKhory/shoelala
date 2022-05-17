@@ -1,23 +1,24 @@
 .footer{
     background-color: rgb(26, 25, 25);
     height: 200px;
+  
 }
 h2{
     color: white;
     padding-left: 40px;
     padding-top: 20px;
 }
-p{
-    color: white;
-    font-size: 19px;
-    padding-right: 213px;
-}
+
 .footint{
     text-align: right;
     color: white;
     padding-right: 15px;
     width: 100%;
-    
+      p{
+    color: white;
+    font-size: 19px;
+    padding-right: 213px;
+}
 }
 
 
@@ -36,3 +37,11 @@ padding-left: 19px;
 border-top: 1px solid #000;
 width : 100%;
 } 
+.iop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-left: 30px;
+    
+}
