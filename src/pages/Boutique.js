@@ -1,13 +1,14 @@
 import React from 'react';
-import Tab from './tableau';
 import Nav from "../components/Nav";
-
+import Footer from "../pages/Footer";
 const Boutique = () => {
     return (
+        <>
+        <Nav />
         <div className='Boutique'>
-            <Nav />
-        <Tab/>
         </div>
+        <Footer/>
+        </>
     );
 };
 

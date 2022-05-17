@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    color: unset;
+}
+
+a:visited {
+    color: unset;
+}
+
+a:focus {
+    color: unset;
+}
+
+a:active {
+    color: grey;
+}
+
+.contact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    background-image: url(../assets/img/contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+    p {
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .p_si {
+        font-weight: 500;
+        margin-top: 40px;
+    }
+
+    ul {
+        width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px 3px;
+        }
+
+        h2 {
+            font-size: 1.3em;
+            padding: 10px;
+            text-transform: uppercase;
+            border-radius: 10px 10px 0 0;
+            background-color: rgb(235, 235, 235);
+            color: #161413;
+        }
+
+        adress {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            background-color: #9b6541;
+            color: #fff;
+            border-radius: 0 0 10px 10px;
+
+            a {
+                font-size: 1em;
+                opacity: 0.9;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+
+    hr {
+        width: 50%;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .navigation {
+        display: fixed;
+    }
+
+    .contact {
+        padding-top: 150px;
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        hr {
+            width: 30%;
+        }
+
+        ul {
+            width: 50%;
+        }
+    }
+}
