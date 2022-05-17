@@ -1,4 +1,5 @@
 import Nav from "../components/Nav";
+import Tableau from './tableau';
 import Footer from "../pages/Footer";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
