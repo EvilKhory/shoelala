@@ -1,15 +1,16 @@
 import React from 'react';
 import Nav from "../components/Nav";
-import tableau from './tableau';
+import Tableau from './tableau';
+import Footer from "../pages/Footer";
 const Boutique = () => {
     return (
         <>
         <Nav />
-     
         <div className='Boutique'>
         </div>
-        <tableau/>    
-         </>
+        <Tableau/>
+        <Footer/>
+        </>
     );
 };
 
