@@ -1,8 +1,8 @@
 .footer{
     background-color: rgb(26, 25, 25);
     height: 200px;
-  
-}
+    width: 100%;
+
 h2{
     color: white;
     padding-left: 40px;
@@ -39,8 +39,12 @@ width : 100%;
 .iop{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 140px;
     gap: 100px;
-    padding-left: 30px;
-    
+}
+
+.iop li{
+    font-size: 20px;
+}
 }
