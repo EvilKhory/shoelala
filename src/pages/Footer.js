@@ -1,20 +1,25 @@
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { BsTwitter, BsInstagram, BsFacebook } from 'react-icons/bs'
 
 function Footer() {
   return (
     <div className="footer">
-        <h2>SHOE LA LA </h2>
-        <div className="trait_dessus"><hr></hr></div> 
-        <button>Mentions legales</button>
-        <button>Contact</button>
-        <div className="footint" >
-           <p> suivez nous:</p>
-           <ul>
-           <li><i className="fa-brands fa-twitter fa-2x"></i></li>
-           <li><i className="fa-brands fa-instagram fa-2x"></i></li>
-           <li><i className="fa-brands fa-facebook fa-2x"></i></li>
-           </ul>
-        </div>
+      <h2>SHOE LA LA</h2>
+      <hr></hr>
+      <div className="footer_row">
+        <a href="#">Mentions légales</a>
+        <NavLink to="/Contact">
+          <a href="">Contact</a>
+        </NavLink>
+        <ul>
+          <li>Suivez-nous :</li>
+          <li><a href="https://www.twitter.com" target="_blank"><BsTwitter></BsTwitter></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><BsInstagram></BsInstagram></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"><BsFacebook></BsFacebook></a></li>
+        </ul>
+      </div>
+        <p>Tous droits réservés © <strong>Golden Curves</strong> | 2022</p>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 
 export function Compteur() {
     const [count, setCount] = useState(0);
