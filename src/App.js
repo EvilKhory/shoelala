@@ -4,7 +4,6 @@ import Magasins from './pages/Magasins';
 import Contact from './pages/Contact';
 import Boutique from './pages/Boutique';
 import './styles/index.scss';
-import NotFoundlol from './pages/NotFoundlol';
 import React from 'react';
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
       <BrowserRouter> 
       <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='*' element={<NotFoundlol />} />
+      <Route path='/shoelala' element={<Home />} />
       <Route path='/Contact' element={<Contact />} />
       <Route path='/Magasins' element={<Magasins />} />
       <Route path='/Boutique' element={<Boutique />} />
