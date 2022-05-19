@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoelala/static/css/main.374a909d.css",
-    "main.js": "/shoelala/static/js/main.2aeeeec5.js",
+    "main.css": "/shoelala/static/css/main.a61a52c9.css",
+    "main.js": "/shoelala/static/js/main.d419595f.js",
     "static/media/contact.png": "/shoelala/static/media/contact.af9147926cdec00c508d.png",
     "static/media/video.mp4": "/shoelala/static/media/video.8441dda895edb745b335.mp4",
     "static/media/magasins.jpg": "/shoelala/static/media/magasins.bb06e54cd096b98f482e.jpg",
@@ -13,7 +13,6 @@
     "static/media/Chanel.png": "/shoelala/static/media/Chanel.a60a0adeb664628e1b73.png",
     "static/media/ElMessiri-Medium.ttf": "/shoelala/static/media/ElMessiri-Medium.70610277c148d08ca030.ttf",
     "static/media/Cartier.png": "/shoelala/static/media/Cartier.f1e360c103b08968e9fc.png",
-    "static/media/perdu.jpg": "/shoelala/static/media/perdu.67c7ccb6ba9bc3a9483f.jpg",
     "static/media/Louis_Vuitton.png": "/shoelala/static/media/Louis_Vuitton.36ace69772ea6ea5f375.png",
     "static/media/F3.jpg": "/shoelala/static/media/F3.458224705fa67daddc92.jpg",
     "static/media/E1.jpg": "/shoelala/static/media/E1.a9e073ec45d15f1d5692.jpg",
@@ -40,11 +39,11 @@
     "static/media/M1.jpg": "/shoelala/static/media/M1.9e42790902c518f9da4a.jpg",
     "static/media/E03.jpg": "/shoelala/static/media/E03.b2cbc321de46cdfcc7a4.jpg",
     "index.html": "/shoelala/index.html",
-    "main.374a909d.css.map": "/shoelala/static/css/main.374a909d.css.map",
-    "main.2aeeeec5.js.map": "/shoelala/static/js/main.2aeeeec5.js.map"
+    "main.a61a52c9.css.map": "/shoelala/static/css/main.a61a52c9.css.map",
+    "main.d419595f.js.map": "/shoelala/static/js/main.d419595f.js.map"
   },
   "entrypoints": [
-    "static/css/main.374a909d.css",
-    "static/js/main.2aeeeec5.js"
+    "static/css/main.a61a52c9.css",
+    "static/js/main.d419595f.js"
   ]
 }
