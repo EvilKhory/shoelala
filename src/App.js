@@ -5,6 +5,7 @@ import Contact from './pages/Contact';
 import Boutique from './pages/Boutique';
 import './styles/index.scss';
 import NotFoundlol from './pages/NotFoundlol';
+import React from 'react';
 
 function App() {
   return (
